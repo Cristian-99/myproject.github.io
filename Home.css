@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("HomeBack.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Fallback background color */
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-family: Garamond;
+  text-align: center;
+  width: fit-content;
+  margin: 60px auto;
+  font-size: 48px;
+  padding: 10px 45px 5px;
+  border: 3px solid #112D4E;
+  color: #f0f0f0;
+  background-color: #112D4E80;
+}
+
+
+.Logo-container {
+  background-color: #DBE2EF90;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+img {
+  height: 400px;
+  width: 450px;
+  margin: 0 auto;
+  border: 2px solid #f0f0f070;
+
+}
+
+.Enter-cont a {
+  display: flex;
+  justify-content: center;
+}
+
+.Enter-cont button {
+  color: azure;
+  height: 50px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: 1px solid #EEEEEE;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Garamond;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+
+}
+
+.Enter-cont button:hover {
+  background-color: #112D4E;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  margin-top: 15px;
+}
